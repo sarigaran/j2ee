@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="servlet1" method="get">
+<table>
+<tr><td><label>enter the email</label></td></tr>
+<td><input type="email" name="email" size="30" required></td>
+<tr><td><label>enter the password</label></td></tr>
+<td><input type="password" name="password" size="30" required></td>
+<tr><td><input type="submit" value="login"></td></tr>
+
+</table>
+</form>
+</body>
+</html>

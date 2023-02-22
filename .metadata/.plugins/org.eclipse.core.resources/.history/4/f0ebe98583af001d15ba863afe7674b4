@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<h2>
+<script src="example.js"></script></h2>
+<h1>hello world</h1>
+<h3>welcome</h3>
+<input type ="number" id="num" placeholder="enter the number">
+<input type="submit" onclick="fact()" value="submit">
+</body>
+</html>
