@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>check the number</title>
+</head>
+<body bgcolor="blue">
+<h1>CHECK NUMBER OR NOT</h1>
+<input type="text" id="num" name="num" placeholder="enter the number">
+<input type="submit" onclick="fun()" value="check" name="btn">
+<script>
+function fun(){
+	var a=parseInt(document.getElementById("num").value);
+	if(isNaN(a)){
+		document.write("it is not a number");
+	}
+	else{
+		document.write("it is a number");
+	}
+}
+</script>
+</body>
+</html>
