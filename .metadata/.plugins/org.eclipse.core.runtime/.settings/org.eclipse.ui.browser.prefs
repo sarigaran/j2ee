@@ -1,2 +1,4 @@
-browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
+browser-choice=0
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="1">\n<system/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
 eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/Cookie/ckCreate?name\=tamil&loc\=kerala|*|http\://localhost\:8080/Cookie/login.html|*|http\://localhost\:8080/Cookie/ckCreate|*|http\://localhost\:8080/Cookie/ckCreate?name\=hari&loc\=kerala|*|http\://localhost\:8080/first/servlet1?email\=hari%40gmail.com&password\=asdf|*|http\://localhost\:8080/first/login.html|*|http\://localhost\:8080/first/servlet1?email\=hari%40gmail.com&password\=pass|*|http\://localhost\:8080/first/servlet1|*|
