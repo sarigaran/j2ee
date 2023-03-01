@@ -31,13 +31,14 @@ public class ckDisplay extends HttpServlet {
 		/*// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	*/
+		 response.setContentType("text/html");
 		PrintWriter pw=response.getWriter();
 		Cookie[] ckie=request.getCookies();
 		for(Cookie i:ckie) {
 			pw.print(i.getName()+" "+i.getValue());
 		}
 		
-	
+	pw.close();
 	}
 
 }

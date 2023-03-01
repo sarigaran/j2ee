@@ -32,18 +32,19 @@ public class ckCreate extends HttpServlet {
 	/*	// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	*/
+		 response.setContentType("text/html");
 		String name=request.getParameter("name");
 		String loc=request.getParameter("loc");
+		
 		PrintWriter pw=response.getWriter();
 		Cookie ck= new Cookie("user",name);
-		ck.setMaxAge(1800);
 		response.addCookie(ck);
+		ck.setMaxAge(1800);
 		pw.write("user name = "+name);
 		pw.write("cookie created @ "+loc);
-		PrintWriter out = response.getWriter();
-		out.println("<html><body>");
-		out.println("<h1><a href='ckDisplay'>click here to show the session</a>\"</h1>");
-		out.println("</body></html>");
+		pw.println("<html><body>");
+		pw.println("<h1><a href='ckDisplay'>click here to show the session</a>\"</h1>");
+		pw.println("</body></html>");
 		}
 
 }
