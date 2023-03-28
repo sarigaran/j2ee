@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="sample" path="/sample" reloadable="true" source="org.eclipse.jst.jee.server:sample"/><Context docBase="first" path="/first" reloadable="true" source="org.eclipse.jst.jee.server:first"/><Context docBase="JDBCServlet" path="/JDBCServlet" reloadable="true" source="org.eclipse.jst.jee.server:JDBCServlet"/><Context docBase="jj1" path="/jj1" reloadable="true" source="org.eclipse.jst.jee.server:jj1"/><Context docBase="jj4p1registeration form" path="/jj4p1registeration_form" reloadable="true" source="org.eclipse.jst.jee.server:jj4p1registeration form"/><Context docBase="Cookie" path="/Cookie" reloadable="true" source="org.eclipse.jst.jee.server:Cookie"/></Host>
+      <Context docBase="sample" path="/sample" reloadable="true" source="org.eclipse.jst.jee.server:sample"/><Context docBase="first" path="/first" reloadable="true" source="org.eclipse.jst.jee.server:first"/><Context docBase="JDBCServlet" path="/JDBCServlet" reloadable="true" source="org.eclipse.jst.jee.server:JDBCServlet"/><Context docBase="jj1" path="/jj1" reloadable="true" source="org.eclipse.jst.jee.server:jj1"/><Context docBase="jj4p1registeration form" path="/jj4p1registeration_form" reloadable="true" source="org.eclipse.jst.jee.server:jj4p1registeration form"/><Context docBase="Cookie" path="/Cookie" reloadable="true" source="org.eclipse.jst.jee.server:Cookie"/><Context docBase="jj5p2" path="/jj5p2" reloadable="true" source="org.eclipse.jst.jee.server:jj5p2"/></Host>
     </Engine>
   </Service>
 </Server>

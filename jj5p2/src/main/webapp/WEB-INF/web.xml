@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
-  <display-name>first</display-name>
+  <display-name>jj5p2</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
@@ -11,22 +11,12 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>servlet1</display-name>
-    <servlet-name>servlet1</servlet-name>
-    <servlet-class>servlet.req.servlet1</servlet-class>
+    <display-name>ckcreate</display-name>
+    <servlet-name>ckcreate</servlet-name>
+    <servlet-class>demo.serv.ckcreate</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>servlet1</servlet-name>
-    <url-pattern>/servlet1</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>servlet2</display-name>
-    <servlet-name>servlet2</servlet-name>
-    <servlet-class>servlet.req.servlet2</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>servlet2</servlet-name>
-    <url-pattern>/servlet2</url-pattern>
+    <servlet-name>ckcreate</servlet-name>
+    <url-pattern>/ckcreate</url-pattern>
   </servlet-mapping>
 </web-app>
